@@ -13,7 +13,7 @@ function rotateCarousel() {
   index = (index + 1) % images.length;
 }
 
-setInterval(rotateCarousel, 3000);
+setInterval(rotateCarousel, 2000);
 
 let result = document.getElementById('result');
 let expression = '';
